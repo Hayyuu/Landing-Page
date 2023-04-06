@@ -103,3 +103,32 @@ h1{
     display: flex;
     justify-content: flex-end;
 }
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:200px;
+    background-color: #3832F6;
+    border-radius: 10px;
+    padding:30px 5px;
+}
+.action div{
+    display: flex;
+    flex-direction: column;
+    margin-right:80px;
+}
+.action b{
+    color:white;
+}
+.action button{
+    border:1px solid white;
+    padding:10px 20px;
+    }
+.footer{
+    background-color: #1F2937;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:70px;
+}
